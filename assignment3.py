@@ -6,6 +6,7 @@ def main():
         element = int(input("Enter elements: "))
         list.append(element)
 
+    #call to print function
     print(sum(list))
     print(mulitplication(list))
     print(reverse_list(list))
