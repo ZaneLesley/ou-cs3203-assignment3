@@ -1,3 +1,4 @@
+#main function
 def main():
     list = []
     n = int(input("size of list: "))
@@ -11,12 +12,14 @@ def main():
     print(mulitplication(list))
     print(reverse_list(list))
 
+#Derives Sum
 def sum(list):
     sum = 0 
     for x in list:
         sum = sum + x
     return sum
 
+#Dervies Multiplication 
 def mulitplication(list):
     product = 1
     for x in list:
